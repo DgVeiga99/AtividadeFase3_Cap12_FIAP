@@ -35,8 +35,8 @@ Para validar o funcionamento do sistema, foram realizados testes em cada sensor 
 #### Sensor DHT22 - Umidade e Temperatura
 - **Expectativa**: O sistema deve ler e exibir os valores de temperatura e umidade no Monitor Serial.
 - **Critério de Sucesso**: 
-  - O sistema deve emitir um alerta para "Aumentar irrigação" se a temperatura estiver acima de 30°C ou a umidade abaixo de 50%.
-  - O sistema deve emitir um alerta para "Reduzir irrigação" se a umidade estiver acima de 85%.
+  - O sistema deve analisa a temperatura e humidade para verificar se existe a decisão de realizar o aumento ou redução da irrigação.
+  - Caso exista a alteração do funcionamento padrão, o sistema alerta a mensagem de "Aumento da irrigação" ou "Redução da irrigação".
   
 #### Sensor HC-SR04 - Distância (Nível de Água)
 - **Expectativa**: A distância até o nível de água deve ser exibida em centímetros no Monitor Serial, com um alerta se o nível estiver baixo.
