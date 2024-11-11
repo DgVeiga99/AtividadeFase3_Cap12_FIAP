@@ -10,14 +10,14 @@
       "id": "dht1",
       "top": -162.9,
       "left": 100.2,
-      "attrs": { "temperature": "22.6", "humidity": "64" }
+      "attrs": { "temperature": "23.1", "humidity": "80" }
     },
     {
       "type": "wokwi-hc-sr04",
       "id": "ultrasonic1",
       "top": -152.1,
       "left": 187.9,
-      "attrs": { "distance": "205" }
+      "attrs": { "distance": "223" }
     },
     {
       "type": "wokwi-pir-motion-sensor",
@@ -81,14 +81,14 @@
     [ "bb1:46b.i", "bb1:bn.37", "black", [ "v0" ] ],
     [ "bb1:47b.j", "esp:17", "gray", [ "v0", "h-499.2", "v-38.4" ] ],
     [ "bb1:bn.17", "bb1:22b.h", "black", [ "v0" ] ],
-    [ "bz1:1", "bb1:46b.g", "", [ "$bb" ] ],
-    [ "bz1:2", "bb1:47b.g", "", [ "$bb" ] ],
-    [ "led2:A", "bb1:40b.g", "", [ "$bb" ] ],
-    [ "led2:C", "bb1:39b.g", "", [ "$bb" ] ],
     [ "led1:A", "bb1:23b.g", "", [ "$bb" ] ],
     [ "led1:C", "bb1:22b.g", "", [ "$bb" ] ],
     [ "r1:1", "bb1:39b.h", "", [ "$bb" ] ],
-    [ "r1:2", "bb1:bn.31", "", [ "$bb" ] ]
+    [ "r1:2", "bb1:bn.31", "", [ "$bb" ] ],
+    [ "bz1:1", "bb1:46b.g", "", [ "$bb" ] ],
+    [ "bz1:2", "bb1:47b.g", "", [ "$bb" ] ],
+    [ "led2:A", "bb1:40b.g", "", [ "$bb" ] ],
+    [ "led2:C", "bb1:39b.g", "", [ "$bb" ] ]
   ],
   "dependencies": {}
 }

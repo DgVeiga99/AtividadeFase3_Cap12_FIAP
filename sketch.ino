@@ -133,7 +133,7 @@ void loop() {
     int ldrValue = analogRead(ldrPin);
 
     // Converte o valor analógico em valor lux:
-    float voltage = ldrValue / 1024. * 5;
+    float voltage = ldrValue / 4096. * 5;
     float resistance = 2000 * voltage / (1 - voltage / 5);
     float lux = pow((RL10 * 1e3 * pow(10, GAMMA) / resistance), (1.0 / GAMMA));
 
